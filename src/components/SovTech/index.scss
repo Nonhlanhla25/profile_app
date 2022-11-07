@@ -1,0 +1,41 @@
+.tech{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}   
+
+.sovtech{
+    padding: 10%;
+    
+   
+    img{
+        
+        animation-name: spincube;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 12s;
+        transform-style: preserve-3d;
+        margin-left: calc(70% - 100px);
+        
+        
+        div{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ccc;
+            font-size: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+    }
+}
+    
+
