@@ -17,7 +17,7 @@ const Home = () => {
                         <h1> 
                             I'm Nonhlanhla Mthimkulu
                             <br/>  
-                            Aspiring Software Developer
+                            Software Developer
                         </h1>
                     </div>
 
