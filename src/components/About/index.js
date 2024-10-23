@@ -1,28 +1,24 @@
 import { faCss3, faHtml5, faJava, faJs, faPython } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './index.scss'
+
 
 const About = () => {
     return (
-        <div className="container about-page">
+        <section>
+            <div className="about-page" >
             <div className='about'>
                 <h1>About Me</h1>
-
                 <p>
-                I'm transitioning from Business Analyst to Software Developer 
-                through WeThinkCode. I'm passionate about software programming 
-                as well as problem solving and learning new technologies.
-
-                <br/>
-
-                 I love challenging myself and continuously learning new skills in the 
-                field that I'm venturing in. 
+                I have transitioned from Business Analyst to Software Developer through WeThinkCode 
+                training academy. My passion lies in software programming, problem and continuously
+                learning new technologies.
                 </p>
-
+                <br/>
+                
                 <p>
-                I'm an exceptional team player who is able to collaborate with 
-                others as well as work individually. My skills are Python, Java, HTML, 
-                CSS, JavaScript and I recently started to learn flutter and dart.
+                I have good time management and I'm an exceptional team player who is able to collaborate 
+                with others as well as work individually. My skills are Python, Java, JavaScript, React, Flutter, HTML, 
+                CSS, and I have recently started learning Spring Boot.
                 </p>
             </div>
             <div className='skill-cube'>
@@ -42,12 +38,16 @@ const About = () => {
                     <div className='icon5'>
                         <FontAwesomeIcon icon={faJs} color="#EFD81D" />
                     </div>
+                    <div className='icon6'>
+                        <FontAwesomeIcon icon={faCss3} color="#DD0033"  />
+                    </div>
 
                 </div>
 
             </div>
         </div>
-
+        </section>
+    
     )
 }
 

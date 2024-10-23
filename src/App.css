@@ -1,0 +1,181 @@
+/* Global css */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  --webkit-font-smoothing: "Roboto", sans-serif;
+  -moz-osx-font-smoothing:"Roboto", sans-serif;
+  font-style: normal;
+  
+ 
+}
+h1,h2,h3,h4,p{
+  margin: 0;
+}
+
+h1{ 
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+h2{
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.text-lg{
+  color:black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.text-md{
+  color:black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.text-sm{
+  color:black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+.section-title{
+  font-size: 26px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* profile section */
+.profile-page{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 133.333px 85.333px 133.333px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 457px;
+}
+img{
+  width: 400px;
+  height: 400px;
+}
+/* profile section ends */
+
+/* about section */
+  .about-page{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 133.333px 85.333px 133.333px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #387478;
+  color: #ffffff;
+  height: 457px;
+  }
+
+  p{
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  skill-cube{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 12%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+  
+  }
+  
+  .cube{
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 60px 60px 0;
+    margin-left: calc(50% - 100px);
+  
+  }
+  
+    .cube div{
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        border: 1px solid #ccc;
+        background: rgba(255, 255, 255, 0.5);
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0px lightyellow;
+    }
+  
+    .icon1{
+        transform: translateZ(100px);
+        
+    }
+  
+    .icon2{
+        transform: rotateY(90deg) translateZ(100px);
+    }   
+  
+    .icon3{
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    }
+  
+    .icon4{
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    }
+  
+    .icon5{
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    }
+  
+    .icon6{
+        transform: rotateX(-90deg) translateZ(100px);
+    }
+  
+  
+  @keyframes spincube {
+  
+    16%{
+        transform: rotateY(-90deg);
+    }
+    33%{
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    50%{
+        transform: rotateY(180deg) rotateZ(90deg);
+    }
+    66%{
+        transform: rotateY(90deg) rotateX(90deg);
+    }
+    83%{
+        transform: rotateX(90deg);
+    }
+    
+  }
+  /* about section ends */
+  
+  /* projects section */
+  .project-page{
+    height: 457px;
+    color: #000000;
+    background-color: #54C392;
+    padding: 133.333px 85.333px 133.333px;
+  }
+  
+  

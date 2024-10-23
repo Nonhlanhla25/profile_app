@@ -1,25 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Nonhlanhla from '../../assets/images/Nonhlanhla.png'
-import './index.scss'
+import Nonhlanhla from '../../assets/images/Nonhlanhla.png';
+import Profile from '../Profile/index.js';
+import About from '../About/index.js';
+import Projects from '../Projects/index.js';
 
 const Home = () => {
-
     return (
-        <div className="container home-page">
-            <div>
-                <div className="intro">
-                    <img src={Nonhlanhla} alt="developer"/> 
-                </div>
+        <>
+        <Profile/>
+        <About/>
+        <Projects/>
+        {/* 
 
-                <nav>
-                    <div>
-                        <h1> 
-                            I'm Nonhlanhla Mthimkulu
-                            <br/>  
-                            Aspiring Software Developer
-                        </h1>
-                    </div>
 
                     <div>
                         <a  className="socail" 
@@ -35,11 +28,9 @@ const Home = () => {
                         href="https://github.com/Nonhlanhla25">
                             <FontAwesomeIcon icon={faGithub} color="aqua" />         
                         </a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
+                    </div> 
+            </div> */}
+        </>
     );
 }
 
