@@ -1,9 +1,10 @@
 # Getting Started with Create React App
 
-This project is a single page application about my profile portfolio that has the following tabs:
-    - Home
-    - About Me
-    - Why SovTech
+This project is a single page application about my profile portfolio that has the following pages:
+    - Home page
+    - About Me page
+    - Profile page
+    - Projects page
     
 
 ### `software installed`
