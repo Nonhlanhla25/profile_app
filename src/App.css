@@ -61,13 +61,26 @@ h2{
   padding: 133.333px 85.333px 133.333px;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
-  height: 457px;
+  background-color: #969c9c;
+  color: #ffffff;
+  height: 450px;
 }
-img{
+
+.profile-image img{
   width: 400px;
-  height: 400px;
+  height: auto;
 }
+a{
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+}
+.path{
+  height: 250px;
+  /* display: flex; */
+  width: 100%;
+}
+
 /* profile section ends */
 
 /* about section */
@@ -171,11 +184,20 @@ img{
   /* about section ends */
   
   /* projects section */
-  .project-page{
+  .project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     height: 457px;
     color: #000000;
     background-color: #54C392;
     padding: 133.333px 85.333px 133.333px;
+  }
+  .projects-card-img{
+    width: 200px;
+    height: auto;
+    
   }
   
   

@@ -1,17 +1,17 @@
 {
     "projects":[
     {
-        "id":"1",
-        "src":"",
-        "title":"",
-        "description":"" 
+        "id":"0",
+        "src":"/images/website.png",
+        "title":"Mock Website",
+        "description":"I created a mock Website two" 
 
     },
     {
         "id":"1",
-        "src":"",
-        "title":"",
-        "description":"" 
+        "src":"/images/LiftRide.png",
+        "title":"App website",
+        "description":"I created a mock Website" 
 
     }
     ]

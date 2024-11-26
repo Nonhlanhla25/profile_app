@@ -15,13 +15,13 @@ header{
 
 
 .navbar-link{
-    color: aqua;
+    color: #889191;
     width: 100%;
     font-size: 20px;
     text-decoration:none;
-    margin: 15px;
+    margin: 5px;
     position: relative;
-    padding: 15px;
+    padding: 5px;
     
 } 
 
